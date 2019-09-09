@@ -1,0 +1,2029 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+    <!ENTITY Ontology1389967700 "http://www.owl-ontologies.com/Ontology1389967700.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.owl-ontologies.com/Ontology1389967700.owl#"
+     xml:base="http://www.owl-ontologies.com/Ontology1389967700.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Ontology1389967700="http://www.owl-ontologies.com/Ontology1389967700.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="#label"/>
+    <owl:AnnotationProperty rdf:about="#membershipValueLabel"/>
+    <owl:AnnotationProperty rdf:about="#membershipValuesSynonymSetTR"/>
+    <owl:AnnotationProperty rdf:about="#alignedOWLClasses"/>
+    <owl:AnnotationProperty rdf:about="#membershipValueLabelTR"/>
+    <owl:AnnotationProperty rdf:about="#wikiURL"/>
+    <owl:AnnotationProperty rdf:about="#dbpediaURL"/>
+    <owl:AnnotationProperty rdf:about="#membershipValuesSynonymSet"/>
+    <owl:AnnotationProperty rdf:about="#synonymSet"/>
+    <owl:AnnotationProperty rdf:about="#alignedOWLOntologyURLs"/>
+    <owl:AnnotationProperty rdf:about="#synonymSetTR"/>
+    <owl:AnnotationProperty rdf:about="#wikiURLTR"/>
+    <owl:AnnotationProperty rdf:about="#labelTR"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#linkedOWLClass -->
+
+    <owl:DatatypeProperty rdf:about="#linkedOWLClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ACtoACconverter -->
+
+    <owl:Class rdf:about="#ACtoACconverter">
+        <rdfs:subClassOf rdf:resource="#PowerConverter"/>
+        <label rdf:datatype="&xsd;string"
+            >AC to AC converter</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ACtoDCconverter -->
+
+    <owl:Class rdf:about="#ACtoDCconverter">
+        <rdfs:subClassOf rdf:resource="#PowerConverter"/>
+        <label rdf:datatype="&xsd;string"
+            >AC to DC converter</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#AutomaticGenerationControlSystem -->
+
+    <owl:Class rdf:about="#AutomaticGenerationControlSystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringControlManagementSystem"/>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Automatic_generation_control</wikiURL>
+        <label
+            >automatic generation control system</label>
+        <synonymSet
+            >{automatic generation control, AGC}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Automatic_generation_control</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet>{1.0, 0.067}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Autotransformer -->
+
+    <owl:Class rdf:about="#Autotransformer">
+        <rdfs:subClassOf rdf:resource="#Transformer"/>
+        <label rdf:datatype="&xsd;string">autotransformer</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSet
+            >{autostep down transformer}</synonymSet>
+        <membershipValuesSynonymSetTR>{1.0, 1.0, 1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSetTR
+            >{oto trafo, ototrafo, oto transformat&#246;r}</synonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Autotransformer</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <labelTR
+            >oto transformat&#246;r</labelTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Autotransformer</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Battery -->
+
+    <owl:Class rdf:about="#Battery">
+        <rdfs:subClassOf rdf:resource="#Supply"/>
+        <label rdf:datatype="&xsd;string">battery</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Battery_(electricity)</wikiURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>0.33</membershipValueLabel>
+        <synonymSet
+            >{electric battery}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Battery_(electricity)</dbpediaURL>
+        <labelTR>pil</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Pil</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Biomass -->
+
+    <owl:Class rdf:about="#Biomass">
+        <rdfs:subClassOf rdf:resource="#Renewable"/>
+        <label rdf:datatype="&xsd;string">biomass</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Biomass</dbpediaURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Biyok%C3%BCtle</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Biomass</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>biyok&#252;tle</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#BiomassPlant -->
+
+    <owl:Class rdf:about="#BiomassPlant">
+        <rdfs:subClassOf rdf:resource="#RenewablePlant"/>
+        <label rdf:datatype="&xsd;string">biomass plant</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSet
+            >{biomass power plant, biomass power station, biomass energy plant, biomass energy station}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Blackout -->
+
+    <owl:Class rdf:about="#Blackout">
+        <rdfs:subClassOf rdf:resource="#PowerOutage"/>
+        <membershipValueLabel>0.167</membershipValueLabel>
+        <membershipValuesSynonymSet>{0.167, 0.167}</membershipValuesSynonymSet>
+        <label>blackout</label>
+        <synonymSet
+            >{black-out, black out}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Brownout -->
+
+    <owl:Class rdf:about="#Brownout">
+        <rdfs:subClassOf rdf:resource="#PowerOutage"/>
+        <label>brownout</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Brownout_(electricity)</wikiURL>
+        <synonymSet
+            >{brown-out, brown out}</synonymSet>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Brownout_(electricity)</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Busbar -->
+
+    <owl:Class rdf:about="#Busbar">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label>busbar</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>bara</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Capacitor -->
+
+    <owl:Class rdf:about="#Capacitor">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">capacitor</label>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Kondansat%C3%B6r</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Capacitor</wikiURL>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Capacitor</dbpediaURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>kapasit&#246;r</labelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSetTR>{kondansat&#246;r}</synonymSetTR>
+        <synonymSet>{condenser}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#CircuitBreaker -->
+
+    <owl:Class rdf:about="#CircuitBreaker">
+        <rdfs:subClassOf rdf:resource="#ProtectiveDevice"/>
+        <label rdf:datatype="&xsd;string">circuit breaker</label>
+        <labelTR>kesici</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Circuit_breaker</dbpediaURL>
+        <membershipValueLabelTR>0.0</membershipValueLabelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Circuit_breaker</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Kesici</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Coal -->
+
+    <owl:Class rdf:about="#Coal">
+        <rdfs:subClassOf rdf:resource="#FossilFuel"/>
+        <label rdf:datatype="&xsd;string">coal</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Coal</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Coal</dbpediaURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>k&#246;m&#252;r</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/K%C3%B6m%C3%BCr</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#CogenerationPlant -->
+
+    <owl:Class rdf:about="#CogenerationPlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <labelTR
+            >kojenerasyon santrali</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Cogeneration_plant</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <label
+            >cogeneration plant</label>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSet
+            >{cogeneration power plant, cogeneration power station, cogeneration energy plant, cogeneration energy station}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Cogeneration_plant</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Kojenerasyon</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#CollectorSubstation -->
+
+    <owl:Class rdf:about="#CollectorSubstation">
+        <rdfs:subClassOf rdf:resource="#TransformerSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >collector substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#CommercialEnergyCompany -->
+
+    <owl:Class rdf:about="#CommercialEnergyCompany">
+        <rdfs:subClassOf rdf:resource="#EnergyOrganization"/>
+        <label
+            >commercial energy company</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Conductor -->
+
+    <owl:Class rdf:about="#Conductor">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">conductor</label>
+        <labelTR>iletken</labelTR>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektriksel_iletken</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electrical_conductor</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSetTR
+            >{elektriksel iletken}</synonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electrical_conductor</dbpediaURL>
+        <synonymSet
+            >{electrical conductor}</synonymSet>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ConverterSubstation -->
+
+    <owl:Class rdf:about="#ConverterSubstation">
+        <rdfs:subClassOf rdf:resource="#TransformerSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >converter substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Coupling -->
+
+    <owl:Class rdf:about="#Coupling">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Coupling</wikiURL>
+        <labelTR>kaplin</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Kaplin</wikiURLTR>
+        <label>coupling</label>
+        <synonymSetTR
+            >{kuplaj, kublaj}</synonymSetTR>
+        <membershipValuesSynonymSetTR>{1.0, 1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValueLabel>0.33</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Coupling</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Cycloconverter -->
+
+    <owl:Class rdf:about="#Cycloconverter">
+        <rdfs:subClassOf rdf:resource="#ACtoACconverter"/>
+        <label rdf:datatype="&xsd;string">cycloconverter</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Cycloconverter</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Cycloconverter</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#DCtoACconverter -->
+
+    <owl:Class rdf:about="#DCtoACconverter">
+        <rdfs:subClassOf rdf:resource="#PowerConverter"/>
+        <label rdf:datatype="&xsd;string"
+            >DC to AC converter</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#DCtoDCconverter -->
+
+    <owl:Class rdf:about="#DCtoDCconverter">
+        <rdfs:subClassOf rdf:resource="#PowerConverter"/>
+        <label rdf:datatype="&xsd;string"
+            >DC to DC converter</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/DC-to-DC_converter</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/DC-to-DC_converter</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#DataAcquisitionComponent -->
+
+    <owl:Class rdf:about="#DataAcquisitionComponent">
+        <rdfs:subClassOf rdf:resource="#SCADAComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >data acquisition component</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{DAQ component, DAQ}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Data_acquisition</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Data_acquisition</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#DataAcquisitionServer -->
+
+    <owl:Class rdf:about="#DataAcquisitionServer">
+        <rdfs:subClassOf rdf:resource="#SCADAComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >data acquisition server</label>
+        <synonymSet rdf:datatype="&xsd;string">{DAQ server}</synonymSet>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Disconnector -->
+
+    <owl:Class rdf:about="#Disconnector">
+        <rdfs:subClassOf rdf:resource="#ProtectiveDevice"/>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <label>disconnector</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>ay&#305;r&#305;c&#305;</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#DistributionSubstation -->
+
+    <owl:Class rdf:about="#DistributionSubstation">
+        <rdfs:subClassOf rdf:resource="#TransformerSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >distribution substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricPowerSystem -->
+
+    <owl:Class rdf:about="#ElectricPowerSystem">
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electric_power_system</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electric_power_system</dbpediaURL>
+        <label
+            >electric power system</label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricPowerSystemComponent -->
+
+    <owl:Class rdf:about="#ElectricPowerSystemComponent">
+        <label rdf:datatype="&xsd;string"
+            >electric power system component</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricalEnergy -->
+
+    <owl:Class rdf:about="#ElectricalEnergy">
+        <membershipValuesSynonymSetTR>{1.0, 1.0, 1.0}</membershipValuesSynonymSetTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_enerjisi</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{electric energy, electrical power, electric power}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <label
+            >electrical energy</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electric_energy</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electric_energy</dbpediaURL>
+        <labelTR
+            >elektrik enerjisi</labelTR>
+        <membershipValuesSynonymSet>{1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSetTR
+            >{elektriksel enerji, elektriksel g&#252;&#231;, elektrik g&#252;&#231;}</synonymSetTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricalGrid -->
+
+    <owl:Class rdf:about="#ElectricalGrid">
+        <label rdf:datatype="&xsd;string">electrical grid</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{electricity grid, grid}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electrical_grid</dbpediaURL>
+        <labelTR
+            >elektrik &#351;ebekesi</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_%C5%9Febekesi</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSetTR>{1.0, 0.059}</membershipValuesSynonymSetTR>
+        <synonymSetTR
+            >{elektriksel &#351;ebeke, &#351;ebeke}</synonymSetTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electrical_grid</wikiURL>
+        <membershipValuesSynonymSet>{1.0, 0.059}</membershipValuesSynonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricalGridSubsystem -->
+
+    <owl:Class rdf:about="#ElectricalGridSubsystem">
+        <rdfs:subClassOf rdf:resource="#ElectricalGrid"/>
+        <label rdf:datatype="&xsd;string"
+            >electrical grid subsystem</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricalPowerQuality -->
+
+    <owl:Class rdf:about="#ElectricalPowerQuality">
+        <label rdf:datatype="&xsd;string"
+            >electrial power quality</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_quality</dbpediaURL>
+        <alignedOWLClasses>{PQParameter}</alignedOWLClasses>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_quality</wikiURL>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 0.04}</membershipValuesSynonymSet>
+        <alignedOWLOntologyURLs
+            >{http://www.ceng.metu.edu.tr/~e120329/FPQONT.owl}</alignedOWLOntologyURLs>
+        <synonymSet
+            >{power quality, electrical PQ, PQ}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricalSubstation -->
+
+    <owl:Class rdf:about="#ElectricalSubstation">
+        <label rdf:datatype="&xsd;string"
+            >electrical substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electrical_substation</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electrical_substation</wikiURL>
+        <labelTR>&#351;alt sahas&#305;</labelTR>
+        <synonymSet>{substation}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/%C5%9Ealt_sahas%C4%B1</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricityDistributionCompany -->
+
+    <owl:Class rdf:about="#ElectricityDistributionCompany">
+        <rdfs:subClassOf rdf:resource="#CommercialEnergyCompany"/>
+        <label
+            >electricity distribution company</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricityDistributionSystem -->
+
+    <owl:Class rdf:about="#ElectricityDistributionSystem">
+        <rdfs:subClassOf rdf:resource="#ElectricalGridSubsystem"/>
+        <label rdf:datatype="&xsd;string"
+            >electricity distribution system</label>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_da%C4%9F%C4%B1t%C4%B1m%C4%B1</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electricity_distribution_system</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electricity_distribution_system</wikiURL>
+        <labelTR
+            >elektrik da&#287;&#305;t&#305;m sistemi</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricityGenerationSystem -->
+
+    <owl:Class rdf:about="#ElectricityGenerationSystem">
+        <rdfs:subClassOf rdf:resource="#ElectricalGridSubsystem"/>
+        <label rdf:datatype="&xsd;string"
+            >electricity generation system</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electricity_generation</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electricity_generation</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricityTransmissionSystem -->
+
+    <owl:Class rdf:about="#ElectricityTransmissionSystem">
+        <rdfs:subClassOf rdf:resource="#ElectricalGridSubsystem"/>
+        <label rdf:datatype="&xsd;string"
+            >electricity transmission system</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_iletim_hatt%C4%B1</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electric_power_transmission</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electric_power_transmission</dbpediaURL>
+        <labelTR
+            >elektrik iletim sistemi</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ElectricityUtilizationSystem -->
+
+    <owl:Class rdf:about="#ElectricityUtilizationSystem">
+        <rdfs:subClassOf rdf:resource="#ElectricalGridSubsystem"/>
+        <label rdf:datatype="&xsd;string"
+            >electricity utilization system</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#EnergyAssociation -->
+
+    <owl:Class rdf:about="#EnergyAssociation">
+        <rdfs:subClassOf rdf:resource="#EnergyOrganization"/>
+        <label
+            >energy association</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#EnergyManagementSystem -->
+
+    <owl:Class rdf:about="#EnergyManagementSystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringControlManagementSystem"/>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <synonymSet>{EMS}</synonymSet>
+        <label
+            >energy management system</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#EnergyOrganization -->
+
+    <owl:Class rdf:about="#EnergyOrganization">
+        <label
+            >energy organization</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#EnergySource -->
+
+    <owl:Class rdf:about="#EnergySource">
+        <label rdf:datatype="&xsd;string">energy source</label>
+        <labelTR>enerji kayna&#287;&#305;</labelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Energy_source</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Energy_source</dbpediaURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Enerji_kaynaklar%C4%B1</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#FallingWater -->
+
+    <owl:Class rdf:about="#FallingWater">
+        <rdfs:subClassOf rdf:resource="#EnergySource"/>
+        <label rdf:datatype="&xsd;string">falling water</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Feeder -->
+
+    <owl:Class rdf:about="#Feeder">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <membershipValueLabel>0.059</membershipValueLabel>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <label>feeder</label>
+        <labelTR>fider</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#FossilFuel -->
+
+    <owl:Class rdf:about="#FossilFuel">
+        <rdfs:subClassOf rdf:resource="#EnergySource"/>
+        <label rdf:datatype="&xsd;string">fossil fuel</label>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Fosil_yak%C4%B1tlar</wikiURLTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Fossil_fuel</dbpediaURL>
+        <labelTR>fosil yak&#305;t</labelTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Fossil_fuel</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#FossilFuelPlant -->
+
+    <owl:Class rdf:about="#FossilFuelPlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <label rdf:datatype="&xsd;string"
+            >fossil fuel plant</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSet
+            >{fossil fuel plant, fossil fuel station, fossil fuelled power plant, fossil fuelled power station, fossil fuelled energy plant, fossil fuelled energy station, fossil fuel power plant, fossil fuel power station, fossil fuel energy plant, fossil fuel energy station}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Fossil-fuel_power_station</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Fossil-fuel_power_station</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#FuelCell -->
+
+    <owl:Class rdf:about="#FuelCell">
+        <rdfs:subClassOf rdf:resource="#Supply"/>
+        <label rdf:datatype="&xsd;string">fuel cell</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Fuel_cell</dbpediaURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>yak&#305;t h&#252;cresi</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Yak%C4%B1t_h%C3%BCcresi</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Fuel_cell</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Fuse -->
+
+    <owl:Class rdf:about="#Fuse">
+        <rdfs:subClassOf rdf:resource="#ProtectiveDevice"/>
+        <label rdf:datatype="&xsd;string">fuse</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Fuse_(electrical)</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Fuse_(electrical)</dbpediaURL>
+        <labelTR>sigorta</labelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Sigorta_(elektrik)</wikiURLTR>
+        <membershipValueLabelTR>0.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#GeothermalEnergy -->
+
+    <owl:Class rdf:about="#GeothermalEnergy">
+        <rdfs:subClassOf rdf:resource="#Renewable"/>
+        <label rdf:datatype="&xsd;string"
+            >geothermal energy</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Jeotermal_enerji</wikiURLTR>
+        <labelTR
+            >jeotermal enerji</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Geothermal_energy</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Geothermal_energy</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#GeothermalPlant -->
+
+    <owl:Class rdf:about="#GeothermalPlant">
+        <rdfs:subClassOf rdf:resource="#RenewablePlant"/>
+        <label rdf:datatype="&xsd;string"
+            >geothermal plant</label>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSet
+            >{geothermal power plant, geothermal power station, geothermal energy plant, geothermal energy station}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Geothermal_plant</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Geothermal_plant</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#GovernmentalEnergyOrganization -->
+
+    <owl:Class rdf:about="#GovernmentalEnergyOrganization">
+        <rdfs:subClassOf rdf:resource="#EnergyOrganization"/>
+        <label
+            >governmental energy organization</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#HarmonicFilter -->
+
+    <owl:Class rdf:about="#HarmonicFilter">
+        <rdfs:subClassOf rdf:resource="#PowerConditioner"/>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <label>harmonic filter</label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#HumanMachineInterface -->
+
+    <owl:Class rdf:about="#HumanMachineInterface">
+        <rdfs:subClassOf rdf:resource="#SCADAComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >human machine interface</label>
+        <synonymSet rdf:datatype="&xsd;string">{HMI}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Human_machine_interface</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Human_machine_interface</wikiURL>
+        <membershipValuesSynonymSet>{0.077}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#HydroelectricPlant -->
+
+    <owl:Class rdf:about="#HydroelectricPlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <label rdf:datatype="&xsd;string"
+            >hydroelectric plant</label>
+        <synonymSet
+            >{hydropower station, hydropower plant, hydroelectric plant, hydroelectricity power plant, hydroelectricity power station, hydroelectricity energy plant, hydroelectricity energy station, hydroelectric power plant, hydroelectric power station, hydroelectric energy plant, hydroelectric energy station}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <labelTR
+            >hidroelektrik santrali</labelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Hidroelektrik_santrali</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Hydroelectric_plants</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Hydroelectric_plants</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Hydrogen -->
+
+    <owl:Class rdf:about="#Hydrogen">
+        <rdfs:subClassOf rdf:resource="#EnergySource"/>
+        <dbpediaURL
+            >http://dbpedia.org/page/Hydrogen</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Hydrogen</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <label>hydrogen</label>
+        <labelTR>hidrojen</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Hidrojen</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#HydrogenPlant -->
+
+    <owl:Class rdf:about="#HydrogenPlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR
+            >hidrojen santrali</labelTR>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <label>hydrogen plant</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSet
+            >{hydrogen power plant, hydrogen power station, hydrogen energy plant, hydrogen energy station}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Inductor -->
+
+    <owl:Class rdf:about="#Inductor">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">inductor</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSet>{reactor, coil}</synonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Inductor</wikiURL>
+        <labelTR>ind&#252;kt&#246;r</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Inductor</dbpediaURL>
+        <membershipValuesSynonymSet>{0.25, 0.5}</membershipValuesSynonymSet>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/%C4%B0nd%C3%BCkt%C3%B6r</wikiURLTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Inverter -->
+
+    <owl:Class rdf:about="#Inverter">
+        <rdfs:subClassOf rdf:resource="#DCtoACconverter"/>
+        <label rdf:datatype="&xsd;string">inverter</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_inverter</wikiURL>
+        <labelTR>invert&#246;r</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/%C4%B0nvert%C3%B6r</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{power inverter}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSetTR>{g&#252;&#231; &#231;evirici}</synonymSetTR>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_inverter</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#LinearRegulator -->
+
+    <owl:Class rdf:about="#LinearRegulator">
+        <rdfs:subClassOf rdf:resource="#DCtoDCconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >linear regulator</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Linear_regulator</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Linear_regulator</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Load -->
+
+    <owl:Class rdf:about="#Load">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">load</label>
+        <membershipValueLabelTR>0.0</membershipValueLabelTR>
+        <synonymSet
+            >{electrical load, electric load}</synonymSet>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_y%C3%BCk%C3%BC</wikiURLTR>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>0.2</membershipValueLabel>
+        <labelTR>y&#252;k</labelTR>
+        <synonymSetTR
+            >{elektriksel y&#252;k, elektrik y&#252;k}</synonymSetTR>
+        <membershipValuesSynonymSetTR>{1.0, 1.0}</membershipValuesSynonymSetTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Electrical_load</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Electrical_load</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MainsPowerSupplyUnit -->
+
+    <owl:Class rdf:about="#MainsPowerSupplyUnit">
+        <rdfs:subClassOf rdf:resource="#ACtoDCconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >mains power supply unit</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_supply</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_supply</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/G%C3%BC%C3%A7_kayna%C4%9F%C4%B1</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>g&#252;&#231; kayna&#287;&#305;</labelTR>
+        <synonymSet>{power supply}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MarinePlant -->
+
+    <owl:Class rdf:about="#MarinePlant">
+        <rdfs:subClassOf rdf:resource="#RenewablePlant"/>
+        <label rdf:datatype="&xsd;string">marine plant</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <synonymSet
+            >{marine power plant, marine power station, marine energy plant, marine energy station}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MinistryOfEnergy -->
+
+    <owl:Class rdf:about="#MinistryOfEnergy">
+        <rdfs:subClassOf rdf:resource="#GovernmentalEnergyOrganization"/>
+        <label
+            >ministry of energy</label>
+        <synonymSetTR
+            >{enerji ve tabii kaynaklar bakanl&#305;&#287;&#305;, enerji bakan&#305;, enerji ve tabii kaynaklar bakan&#305;}</synonymSetTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <synonymSet
+            >{department of energy}</synonymSet>
+        <membershipValuesSynonymSetTR>{1.0, 1.0, 1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR
+            >enerji bakanl&#305;&#287;&#305;</labelTR>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MonitoringControlManagementSystem -->
+
+    <owl:Class rdf:about="#MonitoringControlManagementSystem">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <label
+            >monitoring control management system</label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MonitoringSystem -->
+
+    <owl:Class rdf:about="#MonitoringSystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringControlManagementSystem"/>
+        <label rdf:datatype="&xsd;string"
+            >monitoring system</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#MonitoringSystemComponent -->
+
+    <owl:Class rdf:about="#MonitoringSystemComponent">
+        <label
+            >monitoring system component</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#NaturalGas -->
+
+    <owl:Class rdf:about="#NaturalGas">
+        <rdfs:subClassOf rdf:resource="#FossilFuel"/>
+        <label rdf:datatype="&xsd;string">natural gas</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Natural_gas</dbpediaURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Do%C4%9Fal_gaz</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Natural_gas</wikiURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>do&#287;al gaz</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#NuclearEnergy -->
+
+    <owl:Class rdf:about="#NuclearEnergy">
+        <rdfs:subClassOf rdf:resource="#EnergySource"/>
+        <label rdf:datatype="&xsd;string">nuclear energy</label>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Nuclear_power</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/N%C3%BCkleer_enerji</wikiURLTR>
+        <synonymSetTR>{n&#252;kleer g&#252;&#231;}</synonymSetTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Nuclear_power</dbpediaURL>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <synonymSet>{nuclear power}</synonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>n&#252;kleer enerji</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#NuclearPlant -->
+
+    <owl:Class rdf:about="#NuclearPlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <label rdf:datatype="&xsd;string">nuclear plant</label>
+        <synonymSet
+            >{nuclear power plant, nuclear power station, nuclear energy plant, nuclear energy station}</synonymSet>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#OceanWave -->
+
+    <owl:Class rdf:about="#OceanWave">
+        <rdfs:subClassOf rdf:resource="#Renewable"/>
+        <label rdf:datatype="&xsd;string">ocean wave</label>
+        <synonymSetTR
+            >{okyanus dalgas&#305;}</synonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Ocean_wave</dbpediaURL>
+        <membershipValueLabelTR>0.0</membershipValueLabelTR>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Ocean_wave</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Dalga_(su)</wikiURLTR>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <synonymSet
+            >{wind wave, wind-generated wave}</synonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>dalga</labelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Petroleum -->
+
+    <owl:Class rdf:about="#Petroleum">
+        <rdfs:subClassOf rdf:resource="#FossilFuel"/>
+        <label rdf:datatype="&xsd;string">petroleum</label>
+        <labelTR>petrol</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Petroleum</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Petrol</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Petroleum</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PhasorMeasurementUnit -->
+
+    <owl:Class rdf:about="#PhasorMeasurementUnit">
+        <rdfs:subClassOf rdf:resource="#MonitoringSystemComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >phasor measurement unit</label>
+        <membershipValuesSynonymSet>{0.25}</membershipValuesSynonymSet>
+        <synonymSet>{PMU}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Phasor_measurement_unit</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Phasor_measurement_unit</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerConditioner -->
+
+    <owl:Class rdf:about="#PowerConditioner">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <synonymSet
+            >{line conditioner, power line conditioner}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_conditioner</wikiURL>
+        <label
+            >power conditioner</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_conditioner</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerConverter -->
+
+    <owl:Class rdf:about="#PowerConverter">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">power converter</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_converter</dbpediaURL>
+        <synonymSet
+            >{electrical power converter}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_converter</wikiURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerOutage -->
+
+    <owl:Class rdf:about="#PowerOutage">
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_outage</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{power cut, power blackout, power failure}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_outage</wikiURL>
+        <label>power outage</label>
+        <membershipValuesSynonymSet>{1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerPlant -->
+
+    <owl:Class rdf:about="#PowerPlant">
+        <rdfs:subClassOf rdf:resource="#Supply"/>
+        <label rdf:datatype="&xsd;string">power plant</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{power station, generating station, powerhouse, generating plant, energy plant, energy station}</synonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR
+            >elektrik santrali</labelTR>
+        <synonymSetTR
+            >{enerji santrali, g&#252;&#231; santrali, santral}</synonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power_plant</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Elektrik_santrali</wikiURLTR>
+        <membershipValuesSynonymSetTR>{1.0, 1.0, 1.0}</membershipValuesSynonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power_plant</dbpediaURL>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerPlantOwner -->
+
+    <owl:Class rdf:about="#PowerPlantOwner">
+        <rdfs:subClassOf rdf:resource="#CommercialEnergyCompany"/>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <label
+            >power plant owner</label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerQualityMonitoringDevice -->
+
+    <owl:Class rdf:about="#PowerQualityMonitoringDevice">
+        <rdfs:subClassOf rdf:resource="#MonitoringSystemComponent"/>
+        <label
+            >power quality monitoring device</label>
+        <synonymSet
+            >{PQ monitoring device}</synonymSet>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PowerQualityMonitoringSystem -->
+
+    <owl:Class rdf:about="#PowerQualityMonitoringSystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringSystem"/>
+        <labelTR
+            >g&#252;&#231; kalitesi izleme sistemi</labelTR>
+        <label
+            >power quality mon&#351;toring system</label>
+        <synonymSet
+            >{PQ monitoring system}</synonymSet>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSetTR
+            >{GK izleme sistemi}</synonymSetTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ProgrammableLogicController -->
+
+    <owl:Class rdf:about="#ProgrammableLogicController">
+        <rdfs:subClassOf rdf:resource="#DataAcquisitionComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >programmable logic controller</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{programmable controller, PLC}</synonymSet>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/PLC</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Programmable_logic_controller</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0, 0.033}</membershipValuesSynonymSet>
+        <labelTR
+            >programlanabilir mant&#305;ksal denetleyici</labelTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Programmable_logic_controller</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ProtectiveDevice -->
+
+    <owl:Class rdf:about="#ProtectiveDevice">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >protective device</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Power-system_protection</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Power-system_protection</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#ProtectiveRelay -->
+
+    <owl:Class rdf:about="#ProtectiveRelay">
+        <rdfs:subClassOf rdf:resource="#ProtectiveDevice"/>
+        <label rdf:datatype="&xsd;string"
+            >protective relay</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Protective_relay</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Protective_relay</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#PumpedStorageHydroelectricPlant -->
+
+    <owl:Class rdf:about="#PumpedStorageHydroelectricPlant">
+        <rdfs:subClassOf rdf:resource="#HydroelectricPlant"/>
+        <label rdf:datatype="&xsd;string"
+            >pumped storage hydroelectricity plant</label>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Pumped-storage_hydroelectricity</dbpediaURL>
+        <synonymSet
+            >{pumped storage hydropower plant, pumped storage hydropower station, pumped storage hydroelectric plant, pumped storage hydroelectricity power plant, pumped storage hydroelectricity power station, pumped storage hydroelectricity energy plant, pumped storage hydroelectricity energy station, pumped storage hydroelectric power plant, pumped storage hydroelectric power station, pumped storage hydroelectric energy plant, pumped storage hydroelectric energy station}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Rectifier -->
+
+    <owl:Class rdf:about="#Rectifier">
+        <rdfs:subClassOf rdf:resource="#ACtoDCconverter"/>
+        <label rdf:datatype="&xsd;string">rectifier</label>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Do%C4%9Frultucu</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Rectifier</wikiURL>
+        <labelTR>do&#287;rultucu</labelTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Rectifier</dbpediaURL>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSetTR>{redres&#246;r}</synonymSetTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#RemoteTerminalUnit -->
+
+    <owl:Class rdf:about="#RemoteTerminalUnit">
+        <rdfs:subClassOf rdf:resource="#DataAcquisitionComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >remote terminal unit</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{remote telemetry unit, RTU}</synonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Remote_Terminal_Unit</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Remote_Terminal_Unit</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0, 0.143}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Renewable -->
+
+    <owl:Class rdf:about="#Renewable">
+        <rdfs:subClassOf rdf:resource="#EnergySource"/>
+        <label rdf:datatype="&xsd;string">renewable</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Renewable</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Renewable</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{renewable resource}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#RenewablePlant -->
+
+    <owl:Class rdf:about="#RenewablePlant">
+        <rdfs:subClassOf rdf:resource="#PowerPlant"/>
+        <label rdf:datatype="&xsd;string">renewable plant</label>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{renewable power plant, renewable power station, renewable energy plant, renewable energy station}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#RollingBlackout -->
+
+    <owl:Class rdf:about="#RollingBlackout">
+        <rdfs:subClassOf rdf:resource="#Blackout"/>
+        <label
+            >rolling blackout</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Rolling_blackout</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Rolling_blackout</wikiURL>
+        <synonymSet
+            >{rotational load shedding, feeder rotation}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SCADAComponent -->
+
+    <owl:Class rdf:about="#SCADAComponent">
+        <label rdf:datatype="&xsd;string">SCADA component</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SCADASystem -->
+
+    <owl:Class rdf:about="#SCADASystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringControlManagementSystem"/>
+        <label rdf:datatype="&xsd;string">SCADA system</label>
+        <synonymSet rdf:datatype="&xsd;string">{SCADA}</synonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>SCADA sistemi</labelTR>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SequenceOfEventsRecorder -->
+
+    <owl:Class rdf:about="#SequenceOfEventsRecorder">
+        <rdfs:subClassOf rdf:resource="#MonitoringSystem"/>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Sequence_of_events_recorder</dbpediaURL>
+        <membershipValuesSynonymSet>{0.043}</membershipValuesSynonymSet>
+        <synonymSet>{SER}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Sequence_of_events_recorder</wikiURL>
+        <label
+            >sequence of events recorder</label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SmartGrid -->
+
+    <owl:Class rdf:about="#SmartGrid">
+        <rdfs:subClassOf rdf:resource="#ElectricalGrid"/>
+        <label rdf:datatype="&xsd;string">smart grid</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Smart_grid</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Smart_grid</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SolarPlant -->
+
+    <owl:Class rdf:about="#SolarPlant">
+        <rdfs:subClassOf rdf:resource="#RenewablePlant"/>
+        <label rdf:datatype="&xsd;string">solar plant</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>g&#252;ne&#351; santrali</labelTR>
+        <membershipValuesSynonymSetTR>{1.0, 1.0}</membershipValuesSynonymSetTR>
+        <synonymSet
+            >{solar power plant, solar power station, solar energy plant, solar energy station}</synonymSet>
+        <synonymSetTR
+            >{g&#252;ne&#351; enerji santrali, g&#252;ne&#351; enerjisi santrali}</synonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Solar_plant</dbpediaURL>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F_enerjisi</wikiURLTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Solar_plant</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#StaticSynchronousCompensator -->
+
+    <owl:Class rdf:about="#StaticSynchronousCompensator">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >static synchronous compensator</label>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/STATCOM</wikiURL>
+        <membershipValuesSynonymSet>{1.0, 1.0}</membershipValuesSynonymSet>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/STATCOM</dbpediaURL>
+        <synonymSet
+            >{static synchronous condenser, STATCOM}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#StaticVARCompensator -->
+
+    <owl:Class rdf:about="#StaticVARCompensator">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >static VAR compensator</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet>{0.032}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Static_VAR_compensator</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Static_VAR_compensator</dbpediaURL>
+        <synonymSet>{SVC}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SunLight -->
+
+    <owl:Class rdf:about="#SunLight">
+        <rdfs:subClassOf rdf:resource="#Renewable"/>
+        <label rdf:datatype="&xsd;string">sunlight</label>
+        <synonymSet rdf:datatype="&xsd;string">{sun light}</synonymSet>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <synonymSetTR>{g&#252;n &#305;&#351;&#305;&#287;&#305;}</synonymSetTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Sun_light</dbpediaURL>
+        <labelTR>g&#252;ne&#351; &#305;&#351;&#305;&#287;&#305;</labelTR>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Sun_light</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F_%C4%B1%C5%9F%C4%B1%C4%9F%C4%B1</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Supply -->
+
+    <owl:Class rdf:about="#Supply">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string">supply</label>
+        <membershipValueLabel>0.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SwitchedModePowerSupply -->
+
+    <owl:Class rdf:about="#SwitchedModePowerSupply">
+        <rdfs:subClassOf rdf:resource="#ACtoDCconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >switched mode power supply</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet
+            >{1.0, 0.5, 0.083}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Switched-mode_power_supply</dbpediaURL>
+        <synonymSet
+            >{switching-mode power supply, SMPS, switcher}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Switched-mode_power_supply</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#SwitchingSubstation -->
+
+    <owl:Class rdf:about="#SwitchingSubstation">
+        <rdfs:subClassOf rdf:resource="#ElectricalSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >switching substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Switching_station</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Switching_station</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TelemetrySystem -->
+
+    <owl:Class rdf:about="#TelemetrySystem">
+        <rdfs:subClassOf rdf:resource="#SCADAComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >telemetry system</label>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR
+            >telemetri sistemi</labelTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Transformer -->
+
+    <owl:Class rdf:about="#Transformer">
+        <rdfs:subClassOf rdf:resource="#ACtoACconverter"/>
+        <label rdf:datatype="&xsd;string">transformer</label>
+        <labelTR>transformat&#246;r</labelTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/Transformat%C3%B6r</wikiURLTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Transformer</wikiURL>
+        <dbpediaURL
+            >http://dbpedia.org/page/Transformer</dbpediaURL>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+        <synonymSetTR>{trafo}</synonymSetTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TransformerSubstation -->
+
+    <owl:Class rdf:about="#TransformerSubstation">
+        <rdfs:subClassOf rdf:resource="#ElectricalSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >transformer substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TransientFault -->
+
+    <owl:Class rdf:about="#TransientFault">
+        <rdfs:subClassOf rdf:resource="#PowerOutage"/>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Transient_fault</wikiURL>
+        <label>transient fault</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <dbpediaURL
+            >http://dbpedia.org/page/Transient_fault</dbpediaURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TransmissionLine -->
+
+    <owl:Class rdf:about="#TransmissionLine">
+        <rdfs:subClassOf rdf:resource="#ElectricPowerSystemComponent"/>
+        <label rdf:datatype="&xsd;string"
+            >transmission line</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Transmission_line</dbpediaURL>
+        <synonymSetTR
+            >{elektrik iletim hatt&#305;}</synonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <labelTR>iletim hatt&#305;</labelTR>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Transmission_line</wikiURL>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/%C4%B0letim_hatt%C4%B1</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <membershipValuesSynonymSetTR>{1.0}</membershipValuesSynonymSetTR>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TransmissionSubstation -->
+
+    <owl:Class rdf:about="#TransmissionSubstation">
+        <rdfs:subClassOf rdf:resource="#TransformerSubstation"/>
+        <label rdf:datatype="&xsd;string"
+            >transmission substation</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TransmissionSystemOperator -->
+
+    <owl:Class rdf:about="#TransmissionSystemOperator">
+        <rdfs:subClassOf rdf:resource="#GovernmentalEnergyOrganization"/>
+        <synonymSet>{TSO}</synonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Transmission_system_operator</wikiURL>
+        <membershipValuesSynonymSet>{0.2}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Transmission_system_operator</dbpediaURL>
+        <label
+            >transmission system operator</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#VariableFrequencyTransformer -->
+
+    <owl:Class rdf:about="#VariableFrequencyTransformer">
+        <rdfs:subClassOf rdf:resource="#ACtoACconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >variable frequency transformer</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Variable-frequency_transformer</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Variable-frequency_transformer</wikiURL>
+        <synonymSet>{VFT}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#VoltageConverter -->
+
+    <owl:Class rdf:about="#VoltageConverter">
+        <rdfs:subClassOf rdf:resource="#ACtoACconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >voltage converter</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Voltage_converter</dbpediaURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Voltage_converter</wikiURL>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#VoltageRegulator -->
+
+    <owl:Class rdf:about="#VoltageRegulator">
+        <rdfs:subClassOf rdf:resource="#ACtoACconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >voltage regulator</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Voltage_regulator</dbpediaURL>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Voltage_regulator</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#VoltageStabiliser -->
+
+    <owl:Class rdf:about="#VoltageStabiliser">
+        <rdfs:subClassOf rdf:resource="#DCtoDCconverter"/>
+        <label rdf:datatype="&xsd;string"
+            >voltage stabiliser</label>
+        <dbpediaURL
+            >http://dbpedia.org/page/Voltage_stabilizer</dbpediaURL>
+        <membershipValuesSynonymSet>{1.0}</membershipValuesSynonymSet>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Voltage_stabilizer</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <synonymSet
+            >{voltage regulator}</synonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#WideAreaMonitoringSystem -->
+
+    <owl:Class rdf:about="#WideAreaMonitoringSystem">
+        <rdfs:subClassOf rdf:resource="#MonitoringSystem"/>
+        <label rdf:datatype="&xsd;string"
+            >wide area monitoring system</label>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#Wind -->
+
+    <owl:Class rdf:about="#Wind">
+        <rdfs:subClassOf rdf:resource="#Renewable"/>
+        <label rdf:datatype="&xsd;string">wind</label>
+        <membershipValueLabelTR>0.3</membershipValueLabelTR>
+        <alignedOWLClasses>{Wind}</alignedOWLClasses>
+        <labelTR>r&#252;zgar</labelTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/R%C3%BCzg%C3%A2r</wikiURLTR>
+        <dbpediaURL
+            >http://dbpedia.org/page/Wind</dbpediaURL>
+        <alignedOWLOntologyURLs
+            >{http://www.ceng.metu.edu.tr/~e120329/FWONT.owl}</alignedOWLOntologyURLs>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Wind</wikiURL>
+        <membershipValueLabel>1.0</membershipValueLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#WindPlant -->
+
+    <owl:Class rdf:about="#WindPlant">
+        <rdfs:subClassOf rdf:resource="#RenewablePlant"/>
+        <label rdf:datatype="&xsd;string">wind plant</label>
+        <synonymSet rdf:datatype="&xsd;string"
+            >{wind power plant, wind power station, wind energy plant, wind energy station, wind farm}</synonymSet>
+        <dbpediaURL
+            >http://dbpedia.org/page/Wind_power_plant</dbpediaURL>
+        <synonymSetTR
+            >{r&#252;zgar enerji santrali, r&#252;zgar g&#252;c&#252; santrali}</synonymSetTR>
+        <wikiURLTR
+            >http://tr.wikipedia.org/wiki/R%C3%BCzg%C3%A2r_g%C3%BCc%C3%BC</wikiURLTR>
+        <membershipValueLabelTR>1.0</membershipValueLabelTR>
+        <labelTR>r&#252;zgar santrali</labelTR>
+        <membershipValuesSynonymSetTR>{1.0, 1.0}</membershipValuesSynonymSetTR>
+        <membershipValueLabel>1.0</membershipValueLabel>
+        <wikiURL
+            >http://en.wikipedia.org/wiki/Wind_power_plant</wikiURL>
+        <membershipValuesSynonymSet
+            >{1.0, 1.0, 1.0, 1.0, 1.0}</membershipValuesSynonymSet>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#EPDK -->
+
+    <EnergyOrganization rdf:about="#EPDK">
+        <rdf:type rdf:resource="#GovernmentalEnergyOrganization"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </EnergyOrganization>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#E&#220;A&#350; -->
+
+    <GovernmentalEnergyOrganization rdf:about="#E&#220;A&#350;">
+        <rdf:type rdf:resource="#EnergyOrganization"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </GovernmentalEnergyOrganization>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#TE&#304;A&#350; -->
+
+    <owl:Thing rdf:about="#TE&#304;A&#350;">
+        <rdf:type rdf:resource="#EnergyOrganization"/>
+        <rdf:type rdf:resource="#GovernmentalEnergyOrganization"/>
+        <rdf:type rdf:resource="#TransmissionSystemOperator"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#T&#220;REB -->
+
+    <owl:Thing rdf:about="#T&#220;REB">
+        <rdf:type rdf:resource="#EnergyAssociation"/>
+        <rdf:type rdf:resource="#EnergyOrganization"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#WindPlant -->
+
+    <owl:Thing rdf:about="#WindPlant">
+        <linkedOWLClass>WindPowerPlant</linkedOWLClass>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1389967700.owl#YEGM -->
+
+    <EnergyOrganization rdf:about="#YEGM">
+        <rdf:type rdf:resource="#GovernmentalEnergyOrganization"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </EnergyOrganization>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
